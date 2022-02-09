@@ -13,14 +13,14 @@
 * For base path follow as below
 * From Package.json
 ```json
-homepage: `https://<userName>.github.io/<repositoryName>`
+"homepage": "https://<userName>.github.io/<repositoryName>"
 ```
 * Use repositoryName from in react-router browserRouter's baseName
-```javasccript
+```javascript
   <Router basename='/<repositoryName>'>
 ```
 
 ### [spa-github-pages](https://github.com/rafgraph/spa-github-pages)
-* Follow the basic instrucctions provided
+* Follow the basic instructions provided
 * I added/changed 404.html, index.html in public folder.
-* This 404.html will not be same for react-router page not found logic. Need to ccustom develop for reacct-router.
+* This 404.html will not be same for react-router page not found logic. Need to custom develop for react-router.
