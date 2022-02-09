@@ -19,3 +19,8 @@ homepage: `https://<userName>.github.io/<repositoryName>`
 ```javasccript
   <Router basename='/<repositoryName>'>
 ```
+
+### [spa-github-pages](https://github.com/rafgraph/spa-github-pages)
+* Follow the basic instrucctions provided
+* I added/changed 404.html, index.html in public folder.
+* This 404.html will not be same for react-router page not found logic. Need to ccustom develop for reacct-router.
