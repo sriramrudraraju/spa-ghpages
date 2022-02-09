@@ -8,3 +8,14 @@
 
 ### Routing for react app
 * React router [setup](https://v5.reactrouter.com/web/guides/quick-start/installation)
+
+### Base path
+* For base path follow as below
+* From Package.json
+```json
+homepage: `https://<userName>.github.io/<repositoryName>`
+```
+* Use repositoryName from in react-router browserRouter's baseName
+```javasccript
+  <Router basename='/<repositoryName>'>
+```

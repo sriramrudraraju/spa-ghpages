@@ -25,7 +25,7 @@ function App() {
           Learn React 1
         </a>
       </header>
-      <Router>
+      <Router basename='/spa-ghpages'>
       <div>
         <nav>
           <ul>
